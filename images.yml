@@ -1,0 +1,7 @@
+images:
+  - source: docker.io/library/nginx:1.27
+    target_repo: nginx
+    target_tag: 1.27
+  - source: docker.io/library/redis:7.2
+    target_repo: redis
+    # target_tag omitted => reuse source tag
